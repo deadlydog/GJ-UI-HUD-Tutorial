@@ -356,6 +356,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: heart
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 291
+        width: 139
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b47376cca236044893ae3b023449ad
+      internalID: -461192479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 55
+        width: 115
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991a861dfacdc4d46b0d0908a77d00c1
+      internalID: 1775590718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 55
+        width: 115
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f6a128e6850b34e8ff0f5950119dc2
+      internalID: 1481897007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 55
+        width: 115
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3699db5ab7a7654d99bff2f53d6bf4e
+      internalID: -398783228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -367,11 +451,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      heart: -461192479
       character_upper_leg: -1244639429
       character_upper_arm: 1598544611
       character_foot: 48081621
+      fireball_2: 1481897007
       character_hair: 444021974
       character_mouth: 87642457
+      fireball_3: -398783228
       character_body: 612560432
       character_eyes: 129148025
       character_hand: 1143587230
@@ -381,6 +468,7 @@ TextureImporter:
       character_forearm: -190552479
       character_eyeline: 637454686
       character_eyeball: 1864686474
+      fireball_1: 1775590718
       character_worried_ball_man_2: -78528485
   spritePackingTag: 
   pSDRemoveMatte: 0
