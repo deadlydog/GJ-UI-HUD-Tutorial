@@ -10,7 +10,7 @@ public class Coin : MonoBehaviour
 
         if (coins != null)
         {
-            coins.coins++;
+            coins.Coins++;
             Destroy(gameObject);
         }
         

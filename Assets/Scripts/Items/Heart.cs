@@ -15,7 +15,7 @@ public class Heart : MonoBehaviour
 
         if (health != null)
         {
-            health.health += healthGiven;
+            health.Health += healthGiven;
             Destroy(gameObject);
         }
         
