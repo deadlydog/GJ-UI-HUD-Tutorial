@@ -1,10 +1,11 @@
+using System;
 using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
     public float time;
 
-    private void OnEnable()
+    private void Update()
     {
         time += Time.deltaTime;
     }
