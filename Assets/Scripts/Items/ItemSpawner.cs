@@ -8,10 +8,9 @@ using Random = UnityEngine.Random;
 public class ItemSpawner : MonoBehaviour
 {
     public float healthRatio;
+    public float coinRatio;
 
     public Vector2 spawnTimeRange;
-    
-    public Vector2 gravityRange;
 
     public Vector2 spawnYRange;
     public Vector2 spawnXRange;
@@ -20,6 +19,7 @@ public class ItemSpawner : MonoBehaviour
 
     public GameObject fireball;
     public GameObject heart;
+    public GameObject coin;
 
     private void OnEnable()
     {
@@ -46,9 +46,14 @@ public class ItemSpawner : MonoBehaviour
     
     private void SpawnItem()
     {
-        if (Random.value <= healthRatio)
+        float rand = Random.value;
+        
+        if (rand <= healthRatio)
         {
             Instantiate(heart, new Vector3(Random.Range(spawnXRange.x, spawnXRange.y), Random.Range(spawnYRange.x, spawnYRange.y), 0), quaternion.identity);
+        } else if (rand > healthRatio && rand <= healthRatio + coinRatio)
+        {
+            Instantiate(coin, new Vector3(Random.Range(spawnXRange.x, spawnXRange.y), Random.Range(spawnYRange.x, spawnYRange.y), 0), quaternion.identity);
         }
         else
         {

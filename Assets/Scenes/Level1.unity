@@ -409,6 +409,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5773831239131860969, guid: cf391225b6bc57b42a5a3c947be3c4e9, type: 3}
   m_PrefabInstance: {fileID: 870773628}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2062150009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2062150010}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2062150010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062150009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.44564173, y: 7.931539, z: -0.0900656}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2702791368854126789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -593,14 +624,6 @@ PrefabInstance:
     - target: {fileID: 5229621531070696844, guid: 0f5066cd79855494a98e3ba81af104a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5537158243436558184, guid: 0f5066cd79855494a98e3ba81af104a6, type: 3}
-      propertyPath: spawnTimeRange.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5537158243436558184, guid: 0f5066cd79855494a98e3ba81af104a6, type: 3}
-      propertyPath: spawnTimeRange.y
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5590255543025109406, guid: 0f5066cd79855494a98e3ba81af104a6, type: 3}
       propertyPath: m_Name

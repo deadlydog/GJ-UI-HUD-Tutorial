@@ -44,10 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b06a05808a94c44a962799281394d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthRatio: 0.05
-  spawnTimeRange: {x: 0.25, y: 0.75}
-  gravityRange: {x: 0, y: 0}
+  healthRatio: 0.04
+  coinRatio: 0.1
+  spawnTimeRange: {x: 0.1, y: 0.5}
   spawnYRange: {x: 20, y: 25}
   spawnXRange: {x: -20, y: 20}
   fireball: {fileID: 330166840716755358, guid: e0d197b274fbadd45871904ed72b23bd, type: 3}
   heart: {fileID: 1897822498131042677, guid: 44b055b963faf7943a80ee58cd8069be, type: 3}
+  coin: {fileID: 5461508305170216113, guid: cac5c36262f14fe49a0e834441ca4817, type: 3}
